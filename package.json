@@ -3,14 +3,23 @@
   "version": "1.0.0",
   "description": "TODO Sync Client",
   "repository": "https://github.com/emanuelescarabattoli/todo-sync-client.git",
-  "main": "index.ts",
+  "main": "./src/index.ts",
   "scripts": {
-    "start": "ts-node ./index.ts"
+    "start": "ts-node ./src/index.ts",
+    "lint": "tslint ./src/**/*.ts",
+    "lint:fix": "tslint --fix ./src/**/*.ts"
   },
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^12.11.2",
+    "commander": "^3.0.2",
     "glob": "^7.1.5",
+    "inquirer": "^7.0.0",
     "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.1",
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^12.11.2",
+    "tslint": "^5.20.0"
   }
 }
