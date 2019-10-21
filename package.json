@@ -1,0 +1,16 @@
+{
+  "name": "todo-synch-client",
+  "version": "1.0.0",
+  "description": "TODO Sync Client",
+  "repository": "https://github.com/emanuelescarabattoli/todo-sync-client.git",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node ./index.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.11.2",
+    "glob": "^7.1.5",
+    "typescript": "^3.6.4"
+  }
+}
