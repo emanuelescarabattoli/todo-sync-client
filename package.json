@@ -7,19 +7,20 @@
   "scripts": {
     "start": "ts-node ./src/index.ts",
     "lint": "tslint ./src/**/*.ts",
-    "lint:fix": "tslint --fix ./src/**/*.ts"
+    "lint:fix": "tslint --fix ./src/**/*.ts",
+    "build": "tsc"
   },
   "license": "MIT",
   "dependencies": {
     "commander": "^3.0.2",
     "glob": "^7.1.5",
-    "inquirer": "^7.0.0",
-    "typescript": "^3.6.4"
+    "inquirer": "^7.0.0"
   },
   "devDependencies": {
     "@types/glob": "^7.1.1",
     "@types/inquirer": "^6.5.0",
     "@types/node": "^12.11.2",
-    "tslint": "^5.20.0"
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
   }
 }
